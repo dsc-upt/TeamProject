@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+from api.Models.VideoModel import Video
+from api.Models.CategoryModel import Category
+
+
+admin.site.register(Video)
+admin.site.register(Category)
+
